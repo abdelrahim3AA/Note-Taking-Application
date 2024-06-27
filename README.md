@@ -26,3 +26,4 @@ This MVC (Model-View-Controller) web-based note-taking application is built with
 ![signupValidation](https://github.com/abdelrahim3AA/Note-Taking-Application/assets/138967079/6ddc05d1-ec16-4bc0-b8d7-0a2eebf02507)
 ![toSign](https://github.com/abdelrahim3AA/Note-Taking-Application/assets/138967079/58d60fa8-f580-46ac-9f75-c11c793329b2)
 ![updateTask](https://github.com/abdelrahim3AA/Note-Taking-Application/assets/138967079/6f50952b-8d1a-4af0-9035-761887b25d74)
+
