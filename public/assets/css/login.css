@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #d3d3d3; /* Light gray */
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #494948;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0077b2; /* Dark blue */
+}
+
+.auth-container {
+    width: 30%;
+    background-color: #ffffff; /* White */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.auth-container h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.auth-form {
+    margin-top: 2rem;
+}
+
+.auth-form h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #333;
+    font-weight: bold;
+}
+
+.form-group input {
+    padding: 10px;
+    width: 100%;
+    max-width: 100%;
+    font-size: 16px;
+    background-color: #eceae8;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #0077b2; /* Dark blue */
+}
+
+.auth-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0077b2; /* Dark blue */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.auth-form button:hover {
+    background-color: #005f99; /* Lighter blue */
+}
+
+.to-signup {
+    font-size: 0.9rem;
+    color: #494948;
+    margin-top: 1rem;
+}
+
+.to-signup a {
+    color: #0077b2; /* Dark blue */
+    transition: color 0.3s ease;
+}
+
+.to-signup a:hover {
+    color: #005f99; /* Lighter blue */
+}
+
+.error-login {
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 1rem;
+}

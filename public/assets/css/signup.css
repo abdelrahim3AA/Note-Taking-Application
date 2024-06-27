@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2; /* Light gray */
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    color: #0077b2; /* Dark blue */
+}
+
+.auth-container {
+    width: 30%;
+    background-color: #ffffff; /* White */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.auth-container h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.auth-form {
+    margin-top: 2rem;
+}
+
+.auth-form h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.avatar-upload {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+.avatar-upload label {
+    display: block;
+    cursor: pointer;
+}
+
+.avatar-upload input[type="file"] {
+    display: none;
+}
+
+#avatar-preview {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid transparent; /* Hide border initially */
+    transition: border-color 0.3s ease;
+    display: block;
+    margin: 0 auto; /* Center the avatar image */
+}
+
+.avatar-upload span {
+    display: block;
+    margin-top: 0.5rem;
+    color: #0077b2; /* Dark blue */
+    font-weight: bold;
+}
+
+.auth-form input,
+.auth-form button {
+    margin: 10px 0;
+    padding: 12px; /* Increased padding for better touch/click target */
+    font-size: 16px;
+    width: 100%;
+    max-width: 99%;
+    background-color: #f2f2f2; /* Light gray */
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+.auth-form input:focus {
+    outline: none;
+    border-color: #0077b2; /* Dark blue */
+}
+
+.auth-form button {
+    padding: 12px 20px; /* Adjusted padding */
+    font-size: 16px;
+    background-color: #0077b2; /* Dark blue */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.auth-form button:hover {
+    background-color: #005f99; /* Lighter blue */
+}
+
+.error-login {
+    color: red;
+    font-family: 'Arial', sans-serif;
+    margin-top: 1rem;
+}
+
+.to-signup {
+    font-size: 0.9rem;
+    color: #494948;
+    margin-top: 1rem;
+}
+
+.to-signup a {
+    color: #0077b2; /* Dark blue */
+    transition: color 0.3s ease;
+}
+
+.to-signup a:hover {
+    color: #005f99; /* Lighter blue */
+}
